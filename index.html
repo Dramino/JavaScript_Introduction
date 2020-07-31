@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //This a comment
+            /*This is a multirow comment
+            */
+            const texto="<h1>Hello World</h1>";
+            document.write(texto);
+
+            //#Tipo de datos
+
+            //##Punto flotante
+            const price = 1.55;
+            document.write(price);
+
+            //##Strings
+            const txtComillaDbl="<h1>Comilla doble</h1>";
+            const txtComillaSmpl='<h2>Comilla sencilla</h2>';
+            const txtComillaInv=`<p>Comilla invertida;
+            Lorem lipson bla bal bal y bla bal ba</p>`;
+            const txtComillaMix="<h3>Es 'texto' es combinado</h3>";
+            const txtComillaMix2='<h4>Comillas combinadas \'Otro texto\' </h4>';
+
+            document.write(txtComillaDbl, txtComillaSmpl, txtComillaInv, txtComillaMix,txtComillaMix2);
+
+            //Operadores aritméticos, los 7 pecados capitales
+            
+            //alertas
+            let edad=prompt("Cuantos años tienes");
+            document.write("Tu edad es: ", edad);
+
+            let confirmar=confirm("Quieres salir de la página");
+            if (confirmar) document.write("Vete");
+            if (confirmar) window.close();
+            if(!confirmar) document.write("Bien");
+            if (!confirmar) window.reload();
+        </script>
+    </body>
+</html>
